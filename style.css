@@ -10,7 +10,6 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
-
 }
 
 /* Video Background */
@@ -115,7 +114,7 @@ ul {
 }
 
 li {
-
+  display: inline-block;
   font-size: 30px;
   list-style-type: none;
   padding: 10px;
@@ -132,6 +131,33 @@ li span {
 .complete {
   position: relative;
   top: 60px;
+}
+
+.complete-title {
+  animation: complete 4s infinite;
+}
+
+@keyframes complete {
+  0% {
+    color:rgb(222, 30, 30);
+  }
+
+  25% {
+    color:rgb(247, 243, 9);
+  }
+
+  50% {
+    color:rgb(82, 215, 37);
+    transform: scale(1.5);
+  }
+
+  75% {
+    color:rgb(24, 64, 195);
+  }
+
+  100% {
+    color: rgb(104, 12, 165);
+  }
 }
 
 
