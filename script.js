@@ -117,12 +117,3 @@ completeBtn.addEventListener('click', reset);
 
 // Load function that checks localStorage
 restorePreviousCountdown();
-
-
-
-
-
-
-
-
-///// fiquei no tempo: 13:10 na ZTM
